@@ -5,8 +5,6 @@
 .Primary-Header div {
   height: 40em;
   width: 100vw;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .Primary-Header .flex {
   display: flex;
@@ -19,24 +17,32 @@
   color: white;
   font-size: 100px;
   font-style: bold;
-  background: black;
+  background: blue;
   opacity: 0.5;
 }
 
 .Intro {
   background-image: url("../images/irrigation.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .Landscaping {
   background-image: url("../images/landscaping_four.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .Hardscaping {
   background-image: url("../images/hardscape_two.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .Fertilizing {
   background-image: url("../images/landscaping_five.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 /*# sourceMappingURL=main.css.map */

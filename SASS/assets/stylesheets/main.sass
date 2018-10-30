@@ -1,3 +1,5 @@
+@import 'var.sass'
+   
 .Intro 
     color: black
 
@@ -5,9 +7,7 @@
     div
         height: 40em
         width: 100vw
-        background: 
-                repeat: no-repeat
-                size: cover
+
     .flex 
         display: flex
         flex-direction: column
@@ -20,21 +20,22 @@
             font:
                 size: 100px
                 style: bold
-            background: black
+            background: $blue
             opacity: .5
             
 .Intro
     background-image: url("../images/irrigation.jpg")
+    +slick-back(cover)
 
 .Landscaping
     background-image: url("../images/landscaping_four.jpg")
-
+    +slick-back
 .Hardscaping
     background-image: url("../images/hardscape_two.jpg")
-   
+    +slick-back
 .Fertilizing
     background-image: url("../images/landscaping_five.jpg")
-
+    +slick-back
 
     
         
