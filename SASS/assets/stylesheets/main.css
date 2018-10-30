@@ -1,44 +1,42 @@
 .Intro {
-  color: blue;
+  color: black;
 }
 
 .Primary-Header div {
   height: 40em;
   width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.Primary-Header h1 {
+.Primary-Header .flex {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: black;
+}
+.Primary-Header .flex h1 {
+  color: white;
   font-size: 100px;
   font-style: bold;
+  background: black;
+  opacity: 0.5;
 }
 
 .Intro {
   background-image: url("../images/irrigation.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .Landscaping {
   background-image: url("../images/landscaping_four.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .Hardscaping {
-  background-image: url("../images/hardscape.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("../images/hardscape_two.jpg");
 }
 
 .Fertilizing {
   background-image: url("../images/landscaping_five.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 /*# sourceMappingURL=main.css.map */
